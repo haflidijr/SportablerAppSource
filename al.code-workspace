@@ -2,9 +2,24 @@
     "folders":  [
                     {
                         "path":  ".AL-Go"
+                    },
+                    {
+                        "path": "Sportabler"
                     }
                 ],
     "settings":  {
-
+                    "al.enableCodeAnalysis": true,
+                    "al.codeAnalyzers": [
+                        "${AppSourceCop}",
+                        "${CodeCop}"
+                ],
+                "CRS.RemovePrefixFromFilename": false,
+                "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+                "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+                "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+                "CRS.ObjectNameSuffix": " ADV",
+                "CRS.OnSaveAlFileAction": "Rename",
+                "CRS.RenameWithGit": false
+                
                  }
 }

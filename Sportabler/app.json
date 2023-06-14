@@ -1,0 +1,44 @@
+{
+    "id":"bfbfc698-ffbd-41f0-b4a3-516f70ee6668",
+    "name":"Advania Sportabler Connection",
+    "publisher":"Advania",
+    "version":"21.0.0.0",
+    "brief":"With Advania Sportabler you can save time by importing sales orders.",
+    "description":"With Advania Sportabler you can save time by importing sales orders.",
+    "privacyStatement":"https://privacy.d365bc.is",
+    "EULA":"https://eula.d365bc.is",
+    "help":"https://help.d365bc.is/",
+    "url":"https://app.d365bc.is/",
+    "contextSensitiveHelpUrl":"https://contexthelp.d365bc.is/",
+    "logo":"./Logo/ExtensionLogo.png",
+    "dependencies":[
+       {
+          "id":"7cb25b56-0505-4e94-86ef-d1323a034f76",
+          "name":"Advania IS365",
+          "publisher":"Advania",
+          "version":"20.0.0.0"
+       }
+    ],
+    "screenshots":[
+       
+    ],
+    "platform":"21.0.0.0",
+    "application":"21.0.0.0",
+    "idRanges":[
+       {
+          "from": 1000000,
+          "to": 1100000
+       }
+    ],
+    "resourceExposurePolicy":{
+       "allowDebugging":true,
+       "allowDownloadingSource":true,
+       "includeSourceInSymbolFile":true
+    },
+    "runtime":"10.0",
+    "features":[
+       "TranslationFile",
+       "NoImplicitWith"
+    ],
+    "applicationInsightsConnectionString": "None"
+ }
